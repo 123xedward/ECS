@@ -48,3 +48,14 @@ variable "tags_vpc" {
   type        = map(string)
   description = "VPC Tags"
 }
+
+
+variable "iam_tags" {
+  type = map(string)
+  description = "Tags"
+}
+
+variable "ecs_name" {
+  type = string
+  description = "ECS Name"
+}
