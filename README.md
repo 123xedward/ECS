@@ -6,6 +6,7 @@ This repo will allow the terraform modules to create a ECS Clusters:
  - ECS Cluster
  - AutoScaling
  - ALB
+ - ECR
  - Task Definitions
  - Services
 

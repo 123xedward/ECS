@@ -42,3 +42,12 @@ module "ecs" {
     Environment = "Development"
   }
 }
+
+module "ecr" {
+  source = "cloudposse/ecr/aws"
+  version     = "0.32.2"
+  namespace              = "eg"
+  stage                  = "test"
+  name                   = "ecr"
+  enabled                 = true
+}
